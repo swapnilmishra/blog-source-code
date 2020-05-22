@@ -26,6 +26,16 @@ const Footer = ({ socialLinks }) => (
                 </Fragment>
             ))
             : null}
+        <Fragment>
+            {` `}&bull;{` `}
+        </Fragment>
+        <Styled.a
+            href="/notes/about"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            about me
+        </Styled.a>
     </footer>
 )
 export default Footer

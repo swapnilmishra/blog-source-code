@@ -2,7 +2,12 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-theme-blog`,
-      options: {},
+    },
+    {
+      resolve: `gatsby-theme-notes`,
+      options: {
+        basePath: `/notes`
+      },
     },
   ],
   // Customize your site metadata:
