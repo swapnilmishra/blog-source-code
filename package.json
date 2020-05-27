@@ -7,7 +7,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "publish:blog": "yarn build && yarn node publish-to-gh-page.js"
+    "release": "yarn build && yarn node publish-to-gh-page.js"
   },
   "dependencies": {
     "gatsby": "^2.21.37",
