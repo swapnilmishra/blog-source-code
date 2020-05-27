@@ -13,13 +13,13 @@ import defaultThemeColors from "gatsby-theme-blog/src/gatsby-plugin-theme-ui/col
 
 export default merge(defaultThemeColors, {
   // text: blueGray,
-  // primary: darkBlue,
+  primary: "#fa5e5e",
   // heading: blueGray,
   // modes: {
-  //   dark: {
+  // dark: {
   //     background: blueGray,
-  //     primary: lightBlue,
+  // primary: "#fa5e5e",
   //     highlight: lightBlue,
-  //   },
+  // },
   // },
 })
